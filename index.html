@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MoodTrans — emotional check-in prototype">
+  <title>MoodTrans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="phone" aria-label="MoodTrans mobile prototype">
+      <div class="notch" aria-hidden="true">
+        <span></span><span></span>
+      </div>
+
+      <button class="back-button" id="backButton" aria-label="Go back">←</button>
+
+      <div class="screen" id="screen"></div>
+
+      <div class="ambient-control">
+        <button id="soundButton" aria-label="Toggle ambient sound">♪</button>
+        <span id="soundLabel">ambient off</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
